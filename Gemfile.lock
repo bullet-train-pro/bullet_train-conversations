@@ -389,7 +389,6 @@ DEPENDENCIES
   bullet_train (~> 1.0)
   bullet_train-conversations!
   bullet_train-integrations-stripe (~> 1.0)
-  bullet_train-super_load_and_authorize_resource
   bullet_train-themes (~> 1.0)
   bullet_train-themes-light (~> 1.0)
   factory_bot_rails (~> 6.2)
