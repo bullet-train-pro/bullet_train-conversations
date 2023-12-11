@@ -10,6 +10,11 @@ source "https://YOUR_LICENSE_KEY@gem.fury.io/bullettrain" do
 end
 ```
 
+Add this to your `config/environment.rb` right after `Rails.application.initialize!`:
+```ruby
+require 'bullet_train/conversations'
+```
+
 And run the following on your shell:
 
 ```bash
