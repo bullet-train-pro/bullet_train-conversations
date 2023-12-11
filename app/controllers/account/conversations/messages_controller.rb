@@ -1,7 +1,7 @@
 class Account::Conversations::MessagesController < Account::ApplicationController
   include Conversations::Messages::BaseController
 
-  account_load_and_authorize_resource :message, through: :conversation, through_association: :messages, member_actions: [:reply, :thread]
+  account_load_and_authorize_resource :message, through: :conversation, through_association: :messages, member_actions: [:reply, :thread] if defined?(account_load_and_authorize_resource)
 
   private
 
