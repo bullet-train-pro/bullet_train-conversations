@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bullet_train-conversations (1.0.19)
+    bullet_train-conversations (1.0.20)
       bullet_train-super_scaffolding (~> 1.0)
       extended_email_reply_parser (~> 0.5)
       rails (>= 6.0)
